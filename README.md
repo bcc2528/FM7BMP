@@ -16,7 +16,16 @@ Releaseに用意してあるFM7BMP.D77 フロッピーディスクイメージ�
 ![FM7BMP - UMA](Screenshots/UMA.png?raw=true)
 ![FM7BMP - FH6](Screenshots/FH6.png?raw=true)
 
-## その他
+## 謝辞
 ブードディスクのIPL・ローダーには山川機長さんの「[Ducky is Back!](https://github.com/captainys/FM/tree/master/7/Demos/2019/src)」のコードを利用させていただきました。
 
 C言語コンパイラにはmalikto999氏の「[6809 クロスCコンパイラ](https://www.vector.co.jp/soft/winnt/prog/se522600.html)」を利用し、標準ライブラリを独自に最適化しました。
+
+## おまけ
+includeフォルダ内に「6809 クロスCコンパイラ」で使用可能なYAMAUCHIコマンドを読み出す関数、PSG音源レジスタに書き込みを行う関数を書いたライブラリを用意しました。
+
+6809 クロスCコンパイラのincludeフォルダ内にyamauchi.h・yamauchi.cをコピーし、ファイル「MCC.exe.config」をテキストエディタで開き、add key="LibFiles"の項目のvalue=""に「;yamauchi.c」を追加してください。
+
+使いたいCソースコードに「#include <yamauchi.h>」を記述することで関数を読み出せます。
+
+使い方に関してはyamauchi.cを読んでみてください。
