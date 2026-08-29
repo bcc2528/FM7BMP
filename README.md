@@ -11,10 +11,10 @@ Releaseに用意してあるFM7BMP.D77 フロッピーディスクイメージ�
 しばらく待っていると画像が表示され、すべて表示された後にキーボードの何かのキーを押すと次の画像が表示されます。
 
 ## サンプル画像
-![FM7BMP - DOOM](Screenshots/DOOM.png?raw=true)
-![FM7BMP - SPACECAT](Screenshots/NEKO.png?raw=true)
-![FM7BMP - UMA](Screenshots/UMA.png?raw=true)
-![FM7BMP - FH6](Screenshots/FH6.png?raw=true)
+![FM7BMP - DOOM](Screenshots/DOOM.png)
+![FM7BMP - SPACECAT](Screenshots/NEKO.png)
+![FM7BMP - UMA](Screenshots/UMA.png)
+![FM7BMP - FH6](Screenshots/FH6.png)
 
 ## 謝辞
 ブードディスクのIPL・ローダーには山川機長さんの「[Ducky is Back!](https://github.com/captainys/FM/tree/master/7/Demos/2019/src)」のコードを利用させていただきました。
